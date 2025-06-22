@@ -1,3 +1,9 @@
+# Environment variables
+.env
+.env.*  # covers .env.development, .env.local, etc.
+
+#Docker 
+dockerignore
 # Logs
 logs
 *.log

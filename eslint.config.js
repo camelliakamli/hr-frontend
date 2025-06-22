@@ -39,7 +39,7 @@ export default tseslint.config(
     rules: {
       ...reactHooks.configs.recommended.rules,
       'prettier/prettier': 'error', // Treat formatting issues as ESLint errors
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'react-refresh/only-export-components': 'off',
       'no-console': ['error', { allow: ['warn', 'error'] }],
       'import/order': [
         'warn',
